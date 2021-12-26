@@ -1,0 +1,184 @@
+{
+    "approles":[
+        {
+            "displayName": "BI Service Administrator",
+            "name": "BIServiceAdministrator",
+            "gUID": "3711E9E74508477B948C79F1257774DB",
+            "description": "This role confers privileges required to administer the sample application.",
+            "appId": "obi",
+            "baseRoles": [
+                {
+                    "displayName": "BI Content Author",
+                    "name": "BIContentAuthor",
+                    "gUID": "ECCB3E6D47E74B17864B0D3329A5E1BB",
+                    "description": "Users with this role can create most types of content.",
+                    "appId": "obi",
+                    "baseRoles": [],
+                    "members": null
+                }
+            ],
+            "members": null
+        },
+        {
+            "displayName": "BI Content Author",
+            "name": "BIContentAuthor",
+            "gUID": "ECCB3E6D47E74B17864B0D3329A5E1BB",
+            "description": "Users with this role can create most types of content.",
+            "appId": "obi",
+            "baseRoles": [
+                {
+                    "displayName": "BI Consumer",
+                    "name": "BIConsumer",
+                    "gUID": "3B66317C3BE14020B9B33D8276B507B0",
+                    "description": "Users granted this role can consume content but are restricted in what they can create.",
+                    "appId": "obi",
+                    "baseRoles": [],
+                    "members": null
+                }
+            ],
+            "members": null
+        },
+        {
+            "displayName": "BI Consumer",
+            "name": "BIConsumer",
+            "gUID": "3B66317C3BE14020B9B33D8276B507B0",
+            "description": "Users granted this role can consume content but are restricted in what they can create.",
+            "appId": "obi",
+            "baseRoles": [],
+            "members": null
+        },
+        {
+            "displayName": "BIDEVELOPER_LGS_PMS",
+            "name": "BIDEVELOPER_LGS_PMS",
+            "gUID": "48D91EA322444DDFB8E18C3B2AE720EB",
+            "description": "گروه توسعه دهندگان فولاد سازی",
+            "appId": "obi",
+            "baseRoles": [
+                {
+                    "displayName": "BI Content Author",
+                    "name": "BIContentAuthor",
+                    "gUID": "ECCB3E6D47E74B17864B0D3329A5E1BB",
+                    "description": "Users with this role can create most types of content.",
+                    "appId": "obi",
+                    "baseRoles": [],
+                    "members": null
+                }
+            ],
+            "members": null
+        },
+        {
+            "displayName": "BIDEVELOPER_LGS_CCM",
+            "name": "BIDEVELOPER_LGS_CCM",
+            "gUID": "68665EC8FB384BA2BC370C9BA0EDA0F8",
+            "description": "گروه توسعه دهندگان نورد سرد",
+            "appId": "obi",
+            "baseRoles": [
+                {
+                    "displayName": "BI Content Author",
+                    "name": "BIContentAuthor",
+                    "gUID": "ECCB3E6D47E74B17864B0D3329A5E1BB",
+                    "description": "Users with this role can create most types of content.",
+                    "appId": "obi",
+                    "baseRoles": [],
+                    "members": null
+                }
+            ],
+            "members": null
+        },
+        {
+            "displayName": "BIDEVELOPER_LGS_HSM",
+            "name": "BIDEVELOPER_LGS_HSM",
+            "gUID": "807A2E36C3694EC19221850A5522EFBE",
+            "description": "گروه توسعه دهندگان نورد گرم",
+            "appId": "obi",
+            "baseRoles": [
+                {
+                    "displayName": "BI Content Author",
+                    "name": "BIContentAuthor",
+                    "gUID": "ECCB3E6D47E74B17864B0D3329A5E1BB",
+                    "description": "Users with this role can create most types of content.",
+                    "appId": "obi",
+                    "baseRoles": [],
+                    "members": null
+                }
+            ],
+            "members": null
+        },
+        {
+            "displayName": "آموزشی",
+            "name": "amoozesh",
+            "gUID": "E45631BE40D0425180C1747F1404DFA3",
+            "description": null,
+            "appId": "obi",
+            "baseRoles": [
+                {
+                    "displayName": "BI Content Author",
+                    "name": "BIContentAuthor",
+                    "gUID": "ECCB3E6D47E74B17864B0D3329A5E1BB",
+                    "description": "Users with this role can create most types of content.",
+                    "appId": "obi",
+                    "baseRoles": [],
+                    "members": null
+                }
+            ],
+            "members": null
+        },
+        {
+            "displayName": "NET_ADMIN",
+            "name": "NET_ADMIN",
+            "gUID": "29BE2947575E4962AAB1976126C2B077",
+            "description": null,
+            "appId": "obi",
+            "baseRoles": [
+                {
+                    "displayName": "BI Content Author",
+                    "name": "BIContentAuthor",
+                    "gUID": "ECCB3E6D47E74B17864B0D3329A5E1BB",
+                    "description": "Users with this role can create most types of content.",
+                    "appId": "obi",
+                    "baseRoles": [],
+                    "members": null
+                }
+            ],
+            "members": null
+        },
+        {
+            "displayName": "BIDEVELOPER_FIN",
+            "name": "BIDEVELOPER_FIN",
+            "gUID": "015A4D0546454F3BB6307FBF3600301A",
+            "description": "گروه توسعه دهندگان مالی",
+            "appId": "obi",
+            "baseRoles": [
+                {
+                    "displayName": "BI Content Author",
+                    "name": "BIContentAuthor",
+                    "gUID": "ECCB3E6D47E74B17864B0D3329A5E1BB",
+                    "description": "Users with this role can create most types of content.",
+                    "appId": "obi",
+                    "baseRoles": [],
+                    "members": null
+                }
+            ],
+            "members": null
+        },
+        {
+            "displayName": "CEW_ADMIN",
+            "name": "CEW_ADMIN",
+            "gUID": "F76DFB6E63AD4F9AB88DD0FBC3CF5664",
+            "description": null,
+            "appId": "obi",
+            "baseRoles": [
+                {
+                    "displayName": "BI Content Author",
+                    "name": "BIContentAuthor",
+                    "gUID": "ECCB3E6D47E74B17864B0D3329A5E1BB",
+                    "description": "Users with this role can create most types of content.",
+                    "appId": "obi",
+                    "baseRoles": [],
+                    "members": null
+                }
+            ],
+            "members": null
+        }
+    ]
+}
